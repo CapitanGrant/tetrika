@@ -23,8 +23,3 @@ def sum_two(a: int, b: int) -> int:
 
 print(sum_two(1, 2))  # >>> 3
 print(sum_two(1, 2.4))  # >>> TypeError
-
-
-def cache(func):
-    def wrapper(product_query: str):
-        pass
